@@ -6,7 +6,6 @@ function App() {
   return (
     <div >
       <Parent/>
-      <h1>Class 5</h1>
    
     </div>
   );

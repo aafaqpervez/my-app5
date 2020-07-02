@@ -1,10 +1,11 @@
 import React from 'react';
+import GrandChild from './GrandChild';
 
 const Child = () => 
 {
 
     return(
-        <h2>This Our 1st Child</h2>
+        <GrandChild />
     )
 }
 
