@@ -1,9 +1,10 @@
 import React from 'react';
 import Child from './Child';
-const Parent =() => 
+const Parent =(props) => 
 {
     return (
-        <Child />
+
+        <Child name={props.name}/>
     )
 }
 export default Parent;
