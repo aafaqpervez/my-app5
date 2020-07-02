@@ -6,7 +6,7 @@ const Child = (props) =>
 
     return(
     
-        <GrandChild name={props.name} />
+        <GrandChild />
     )
 }
 
