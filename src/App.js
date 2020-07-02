@@ -1,10 +1,12 @@
 import React from 'react';
-
+import Parent from './Parent';
+import './App.css';
 
 function App() {
   return (
     <div >
-      <h1>Class 6</h1>
+      <Parent/>
+      <h1>Class 5</h1>
    
     </div>
   );
