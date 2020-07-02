@@ -8,6 +8,7 @@ function App() {
     <CounterContext.Provider value={10}>
       <div >
         {/* <Parent name='Aafaq' /> */}
+        <Parent/>
 
       </div>
     </CounterContext.Provider>
