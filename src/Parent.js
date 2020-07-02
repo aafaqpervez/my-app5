@@ -4,7 +4,7 @@ const Parent =(props) =>
 {
     return (
 
-        <Child name={props.name}/>
+        <Child name={props.name} />
     )
 }
 export default Parent;

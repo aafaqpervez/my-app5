@@ -5,8 +5,8 @@ const Child = (props) =>
 {
 
     return(
-    <h2>This is {props.name}</h2>
-        <GrandChild />
+    
+        <GrandChild name={props.name} />
     )
 }
 
