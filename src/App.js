@@ -4,13 +4,13 @@ import './App.css';
 import CounterContext from './CounterContext';
 
 function App() {
-  let countState=useState(25)
- 
+  let countState = useState(25)
+
   return (
-    <CounterContext.Provider value={count}>
+    <CounterContext.Provider value={countState}>
       <div >
         {/* <Parent name='Aafaq' /> */}
-        <Parent/>
+        <Parent />
 
       </div>
     </CounterContext.Provider>
