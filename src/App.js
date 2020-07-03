@@ -4,8 +4,8 @@ import './App.css';
 import CounterContext from './CounterContext';
 
 function App() {
-  // let countState=useState(25)
-  let [count, setCount]=useState(25)
+  let countState=useState(25)
+ 
   return (
     <CounterContext.Provider value={count}>
       <div >
