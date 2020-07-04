@@ -8,6 +8,8 @@ const Child2 =() => {
 
     return(
         <div>
+             <br/>
+            <hr/>
             <h1>2nd child using counter Reducer</h1>
             
             <h3>the value of reducer is {state}</h3>
