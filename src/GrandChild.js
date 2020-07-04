@@ -7,8 +7,7 @@ const GrandChild = () => {
     return (
 
         <div>
-            <br/>
-            <hr/>
+           
             <h1>1st child using counter Context</h1>
             
             <h3>Counter Value is {counterValue[0]}</h3>
